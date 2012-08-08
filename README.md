@@ -27,4 +27,4 @@ In cases of multiple monitors, videocards, etc., only the first result is used a
 todo
 ====
 
-Many if not all of these should be cached, but the :ttl option is not available for the version of Facter that ships with current Puppet. These should probably use a custom caching mechanism for now.
+Many if not all of these should be cached, but the :ttl option is not available for the version of Facter that ships with current Puppet (2.7.18). These should probably use a custom caching mechanism for now.
