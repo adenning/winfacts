@@ -3,7 +3,6 @@ winfacts
 
 A puppet module that adds new facts for Windows nodes.
 
-* computer_model
 * monitor_description
 * monitor_id
 * monitor_resolution

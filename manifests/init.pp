@@ -1,5 +1,4 @@
 class winfacts {
-#  notify{  "computer_model: ${::computer_model}": }
 #  notify{  "monitor_description: ${::monitor_description}": }
 #  notify{  "monitor_id: ${::monitor_id}": }
 #  notify{  "monitor_resolution: ${::monitor_resolution}": }
