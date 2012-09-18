@@ -7,8 +7,8 @@ Facter.add(:videocard_memory) do
     query = wmi.ExecQuery('select AdapterRAM from Win32_VideoController')
     query.each do |controller|
       if controller.AdapterRAM != nil
-        kb = controller.AdapterRAM.to_i
-        mb = kb / (1024*1024)
+        bytes = controller.AdapterRAM.to_i
+        mb = bytes / (1024*1024)
         result = mb.to_s + " MB"
         break
       end
