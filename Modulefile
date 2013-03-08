@@ -1,5 +1,5 @@
 name 'adenning-winfacts'
-version '0.0.1'
+version '0.0.3'
 
 author 'Adam Denning'
 license 'Apache 2'
