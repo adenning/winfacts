@@ -3,6 +3,10 @@ winfacts
 
 A puppet module that adds new facts for Windows nodes.
 
+* bios_description
+* bios_manufacturer
+* bios_releasedate
+* bios_smbversion
 * monitor_description
 * monitor_id
 * monitor_resolution
@@ -11,6 +15,7 @@ A puppet module that adds new facts for Windows nodes.
 * motherboard_serialnumber
 * motherboard_version
 * os_architecture
+* os_installdate
 * soundcard_description
 * soundcard_manufacturer
 * videocard_currentrefreshrate
