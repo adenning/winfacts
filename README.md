@@ -14,6 +14,7 @@ A puppet module that adds new facts for Windows nodes.
 * motherboard_product
 * motherboard_serialnumber
 * motherboard_version
+* networkadapter_product
 * os_architecture
 * os_installdate
 * soundcard_description
